@@ -3,22 +3,22 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <menu>
+    <menu className='nav-bar'>
       <ul>
         <li>
-          <Link href='/'>välkommna</Link>
+          <Link className='nav-bar__link nav-bar__link--active' href='/'>välkommna</Link>
         </li>
         <li>
-          <Link href='/'>hitta hit</Link>
+          <Link className='nav-bar__link' href='/'>hitta hit</Link>
         </li>
         <li>
-          <Link href='/'>logi</Link>
+          <Link  className='nav-bar__link' href='/'>logi</Link>
         </li>
         <li>
-          <Link href='/'>önskelista</Link>
+          <Link  className='nav-bar__link' href='/'>önskelista</Link>
         </li>
         <li>
-          <Link href='/'>kontakt</Link>
+          <Link  className='nav-bar__link' href='/'>kontakt</Link>
         </li>
       </ul>
     </menu>
