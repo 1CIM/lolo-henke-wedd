@@ -24,10 +24,10 @@ const Navbar = () => {
           <Link  className={`nav-bar__link ${logiActive}`} href='/logi'>logi</Link>
         </li>
         <li>
-          <Link  className={`nav-bar__link ${wishActive}`} href='/'>önskelista</Link>
+          <Link  className={`nav-bar__link ${wishActive}`} href='/onskelista'>önskelista</Link>
         </li>
         <li>
-          <Link  className={`nav-bar__link ${contactActive}`} href='/'>kontakt</Link>
+          <Link  className={`nav-bar__link ${contactActive}`} href='/kontakt'>kontakt</Link>
         </li>
       </ul>
     </menu>
