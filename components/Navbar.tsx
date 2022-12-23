@@ -9,7 +9,7 @@ const Navbar = () => {
           <Link className='nav-bar__link nav-bar__link--active' href='/'>välkommna</Link>
         </li>
         <li>
-          <Link className='nav-bar__link' href='/'>hitta hit</Link>
+          <Link className='nav-bar__link' href='/hitta'>hitta hit</Link>
         </li>
         <li>
           <Link  className='nav-bar__link' href='/'>logi</Link>
