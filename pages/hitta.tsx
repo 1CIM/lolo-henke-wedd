@@ -1,8 +1,7 @@
-import Image from 'next/image';
 import HeadTag from '../components/HeadTag';
 import Navbar from '../components/Navbar';
 
-const hitta = () => {
+const Hitta = () => {
   return (
     <>
       <HeadTag
@@ -45,4 +44,4 @@ const hitta = () => {
   );
 };
 
-export default hitta;
+export default Hitta;
