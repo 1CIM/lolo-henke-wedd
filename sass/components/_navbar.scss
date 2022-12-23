@@ -10,20 +10,25 @@ nav {
     gap: 3rem;
     list-style: none;
     font-size: 2rem;
+    font-weight: 400;
   }
-
+  
   &__link {
     text-decoration: none;
     color: #707070;
     text-transform: uppercase;
     
     &:hover {
-      color: #587447;
+      color: $color-bg-secondary-light;
     }
   }
   
   .active {
     text-decoration: underline;
-    color: #587447;
+    color: $color-bg-secondary;
+
+    &:hover {
+      color: $color-bg-secondary-light;
+    }
   }
 }

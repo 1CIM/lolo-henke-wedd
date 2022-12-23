@@ -87,6 +87,10 @@ body {
   margin-bottom: 5rem;
 }
 
+img {
+  border-radius: 1rem;
+}
+
 body {
   font-display: swap;
   font-family: "Lato", BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -106,7 +110,7 @@ h3 {
 
 p {
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .sub-header {
@@ -150,9 +154,6 @@ figcaption {
   flex-direction: column;
   align-items: center;
 }
-.home__image img {
-  border-radius: 1rem;
-}
 .home__info {
   margin-top: 6rem;
   overflow: wrap;
@@ -165,6 +166,40 @@ figcaption {
   color: #587447;
 }
 
+.contact {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  max-width: 60rem;
+  min-width: 27rem;
+  width: 80vw;
+}
+.contact .horizontal-line {
+  align-self: center;
+  width: 25vw;
+  height: 0.3rem;
+  border: none;
+  border-radius: 5rem;
+  background-color: #C8DEBB;
+}
+.contact .numbers-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+}
+.contact a {
+  text-decoration: none;
+  color: #639DED;
+}
+.contact img {
+  max-width: 60rem;
+  min-width: 27rem;
+  width: 80vw;
+  height: auto;
+}
+
 .logi {
   margin-top: 6rem;
 }
@@ -175,7 +210,7 @@ figcaption {
   text-align: left;
   max-width: 60rem;
   min-width: 27rem;
-  width: 90vw;
+  width: 80vw;
 }
 .logi__section a {
   text-decoration: none;
@@ -209,6 +244,7 @@ nav {
   gap: 3rem;
   list-style: none;
   font-size: 2rem;
+  font-weight: 400;
 }
 .nav-bar__link {
   text-decoration: none;
@@ -216,11 +252,14 @@ nav {
   text-transform: uppercase;
 }
 .nav-bar__link:hover {
-  color: #587447;
+  color: #70905c;
 }
 .nav-bar .active {
   text-decoration: underline;
   color: #587447;
+}
+.nav-bar .active:hover {
+  color: #70905c;
 }
 
 .wishlist {
