@@ -26,11 +26,11 @@ const Logi = () => {
           <p>
             Boka direkt på deras hemsida:
             <br />
-            <a href='https://grandhotelfalkenberg.se'>
+            <a href='https://grandhotelfalkenberg.se' target='_blank' rel='noreferrer'>
               www.grandhotelfalkenberg.se
             </a>
             <br />
-            <a href='https://hwitan.se'>www.hwitan.se</a>
+            <a href='https://hwitan.se' target='_blank' rel='noreferrer'>www.hwitan.se</a>
           </p>
           <p>
             Eller ring/maila dem på:
