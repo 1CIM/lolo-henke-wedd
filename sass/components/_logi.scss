@@ -1,0 +1,36 @@
+.logi {
+  margin-top: 6rem;
+  &__section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: left;
+    max-width: 60rem;
+    min-width: 27rem;
+    width: 90vw;
+    
+    a {
+      text-decoration: none;
+      color: $link-color;
+    }
+  }
+
+  &__discount-code {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+
+    &--text {
+      font-size: 2.2rem;
+      font-weight: 600;
+    }
+
+    &--code {
+      font-size: 3.2rem;
+      font-weight: 900;
+      letter-spacing: .3rem;
+    }
+  }
+}
