@@ -14,8 +14,10 @@ const Home = () => {
         <h1>Lowisa & Henrik</h1>
         <p className='header__date'>05 AUGUSTI 2023</p>
         <p className='header__time'>Klockan 13:00</p>
-        <Navbar />
       </header>
+      <nav>
+        <Navbar />
+      </nav>
       <main className='home'>
         <figure className='home__image'>
         <Image src='/front.webp' alt='' width={726} height={492} />

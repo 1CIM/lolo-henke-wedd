@@ -14,6 +14,9 @@
 .home {
   z-index: 2;
   margin-bottom: -20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   &__image {
     & img {
@@ -23,7 +26,9 @@
 
   &__info {
     margin-top: 6rem;
-
+    overflow: wrap;
+    max-width: 80vw;
+    
     & p {
       margin-bottom: 5rem;
     }
