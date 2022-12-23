@@ -14,6 +14,10 @@ h1 {
   margin-bottom: 2rem;
 }
 
+h3 {
+  font-weight: 400;
+}
+
 p {
   font-size: 2rem;
   font-weight: 400;
@@ -21,4 +25,9 @@ p {
 
 .sub-header {
   text-transform: uppercase;
+}
+
+figcaption {
+  font-size: 1.6rem;
+  font-weight: 200;
 }
