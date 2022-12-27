@@ -86,10 +86,11 @@ body {
   margin-top: -20rem;
   z-index: 2;
 
-  &__date{
+  &__timer{
     margin-top: 3rem;
   }
-  &__time{
+  &__date{
+    font-size: 1.4rem;
     margin-top: .7rem;
     margin-bottom: 5rem;
   }

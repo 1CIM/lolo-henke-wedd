@@ -79,10 +79,11 @@ body {
   margin-top: -20rem;
   z-index: 2;
 }
-.header__date {
+.header__timer {
   margin-top: 3rem;
 }
-.header__time {
+.header__date {
+  font-size: 1.4rem;
   margin-top: 0.7rem;
   margin-bottom: 5rem;
 }

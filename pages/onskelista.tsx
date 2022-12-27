@@ -1,8 +1,9 @@
+import { NextPage } from 'next';
 import Image from 'next/image';
 import HeadTag from '../components/HeadTag';
 import Navbar from '../components/Navbar';
 
-const Wishlist = () => {
+const Wishlist: NextPage = () => {
   return (
     <>
       <HeadTag

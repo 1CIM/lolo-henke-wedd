@@ -1,7 +1,8 @@
+import { NextPage } from 'next';
 import HeadTag from '../components/HeadTag';
 import Navbar from '../components/Navbar';
 
-const Logi = () => {
+const Logi: NextPage = () => {
   return (
     <>
       <HeadTag
