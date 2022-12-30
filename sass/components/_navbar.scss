@@ -4,6 +4,9 @@ nav {
 
 .nav-bar {
   margin-bottom: 5rem;
+  @include respond(phone-XL) {
+  display: none;
+  }
 
   & ul {
     display: flex;
@@ -12,17 +15,17 @@ nav {
     font-size: 2rem;
     font-weight: 400;
   }
-  
+
   &__link {
     text-decoration: none;
     color: #707070;
     text-transform: uppercase;
-    
+
     &:hover {
       color: $color-bg-secondary-light;
     }
   }
-  
+
   .active {
     text-decoration: underline;
     color: $color-bg-secondary;

@@ -1,8 +1,11 @@
+import { NextPage } from 'next';
 import Image from 'next/image';
 import HeadTag from '../components/HeadTag';
 import Navbar from '../components/Navbar';
+import CountdownTimer from '../components/CountdownTimer';
 
-const Home = () => {
+const Home: NextPage = () => {
+
   return (
     <>
       <HeadTag
@@ -12,8 +15,8 @@ const Home = () => {
       <header className='header'>
         <p className='sub-header'>vi ska gifta oss!</p>
         <h1>Lowisa & Henrik</h1>
-        <p className='header__date'>05 AUGUSTI 2023</p>
-        <p className='header__time'>Klockan 13:00</p>
+        <div className='header__timer'>{CountdownTimer()}</div>
+        <p className='header__date'>( Klockan 13:00 den 05 Aug 2023 )</p>
       </header>
       <nav>
         <Navbar />

@@ -11,8 +11,6 @@ const HeadTag = ({title, content}: HeadProps) => {
     <Head>
       <title>{title}</title>
       <meta name='description' content={content} />
-      <link rel='icon' href='/favicon.ico' />
-      <link rel="stylesheet" href="https://use.typekit.net/gup3enz.css"></link>
     </Head>
   );
 };
