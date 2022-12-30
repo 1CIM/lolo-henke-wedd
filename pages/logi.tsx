@@ -49,7 +49,7 @@ const Logi: NextPage = () => {
         </section>
         <section className='logi__discount-code'>
           <p className='logi__discount-code--text'>För att få 10% rabatt använd koden</p>
-          <p className='logi__discount-code--code'>lowisaochhenrik</p>
+          <p className='logi__discount-code--code'>Lowisaochhenrik</p>
           <p className='logi__discount-code--text'>När ni bokar</p>
         </section>
       </main>
