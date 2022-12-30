@@ -31,7 +31,7 @@ const Home: NextPage = () => {
             Den 5e Augusti 2023 i Falkenbergs kyrka säger vi JA till varandra.
           </p>
           <p>
-            Efter det fortsätter festen i <a href=''>Walencia</a>
+            Efter det fortsätter festen i Walencia
           </p>
         </section>
       </main>
