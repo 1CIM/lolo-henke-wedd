@@ -1,4 +1,4 @@
-import '../styles/style.css';
+import '../styles/style.min.css';
 import type { AppProps } from 'next/app';
 import Image from 'next/image';
 
