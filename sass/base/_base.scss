@@ -88,6 +88,10 @@ body {
 
   &__timer{
     margin-top: 3rem;
+    a {
+      font-size: 2rem;
+      color: $color-bg-secondary;
+    }
   }
   &__date{
     font-size: 1.4rem;

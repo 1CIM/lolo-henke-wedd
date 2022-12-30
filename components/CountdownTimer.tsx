@@ -39,7 +39,7 @@ const CountdownTimer = () => {
   return (
     <>
       {weddingTime ? (
-        <p>Wedding in progress</p>
+        <a href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'>Bröllopsfilm</a>
       ) : (
         <p>
           {days} dagar {hours} timmar {minutes} minuter {seconds} sekunder

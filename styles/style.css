@@ -82,6 +82,10 @@ body {
 .header__timer {
   margin-top: 3rem;
 }
+.header__timer a {
+  font-size: 2rem;
+  color: #587447;
+}
 .header__date {
   font-size: 1.4rem;
   margin-top: 0.7rem;
