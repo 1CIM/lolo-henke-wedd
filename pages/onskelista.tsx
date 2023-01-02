@@ -20,7 +20,7 @@ const Wishlist: NextPage = () => {
         <section className='wishlist__section'>
           <p>Vi är tacksamma att ni vill vara med på vår dag.</p>
           <p>
-            För att ha råd att åka på bröllopsresa är vi mycket tacksamma om i
+            För att ha råd att åka på bröllopsresa är vi mycket tacksamma om vi
             kan få ett bidrag!
             <br /> <br />
             <span className='wishlist__section--small-text'>

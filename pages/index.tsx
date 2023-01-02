@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         <Image src='/front.webp' alt='' width={726} height={492} />
         </figure>
         <section className='home__info'>
-          <p>Vi är jätteglada att nivill fira vår stora dag med oss!</p>
+          <p>Vi är jätteglada att ni vill fira vår stora dag med oss!</p>
           <p>
             Den 5e Augusti 2023 i Falkenbergs kyrka säger vi JA till varandra.
           </p>
